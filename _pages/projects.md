@@ -1,65 +1,22 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A list of completed projects
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+* PI in a Samsung funded project on Palmprint Verification with Prof. Phalguni Gupta as Co-PI. Duration one year.
+* PI in a Indian Space Research Organisation (ISRO) funded project on 3D reconstruction from Satellite Images with Prof. Phalguni Gupta as Co-PI. Duration 3 years.
+* PI in a Samsung funded project on Language and Vision for one year as PI with Prof. Tanaya Guha as co-PI. .
+* PI in a Samsung funded project on Action Recognition in 360∘ videos for one year as PI.
+* PI in a Hitachi funded project on Compression in Deep Learning .
+* PI in an Indian defence (DRDO) funded project on Abnormal activity understanding as PI with Prof. Venkatesh as co-PI.
+* PI in a Samsung funded project on Efficient Activity Recognition for one year as PI.
+* PI in a DST Extra Mural research project on natural language based safe streets project.
+* Co-Investigator in an MRC funded project led by Prof. Darren Cosker at University of Bath and Prof. Isabel Marechal as PI at QMUL
+* Co-Investigator in an Innovate UK project with BBFC led by Dr. Julian Padget as PI.
+* PI in an Innovate-UK funded project: ”Feasibility study on improving video production process using data-efficient Generative-AI models” with a company DeepReel based in London, UK.
