@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vinaypn.github.io/al-folio/sitemap.xml
+Sitemap: https://vinaypn.github.io/sitemap.xml
