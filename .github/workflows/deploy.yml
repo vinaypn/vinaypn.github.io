@@ -22,6 +22,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPOSITORY }}
+          token: ${{ secrets.GITHUB_TOKEN }} # ← Change this line
+          ref: ${{ env.BRANCH }}
 
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
