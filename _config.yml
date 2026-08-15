@@ -255,7 +255,7 @@ keep_files:
   - .nojekyll
 
 # Use al_folio_core as the theme runtime; local files can still override theme files.
-#theme: al_folio_core
+theme: al_folio_core
 
 # Plug-ins
 plugins:
