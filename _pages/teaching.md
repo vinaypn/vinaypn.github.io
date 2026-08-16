@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 calendar: true
 ---
-
 ## List of Courses 
 * December - April, Spring 2014: CS 676, Introduction to Computer Vision
 * July- November, Fall 2014: CS 360, Introduction to Computer Graphics
@@ -31,6 +30,3 @@ calendar: true
 * February 2023 - June 2023: Spring 2023: CM30080 - Computer Vision
 * February 2024 - June 2024: Spring 2024: CM30080 - Computer Vision
 * February 2024 - June 2024: Spring 2024: CM50265 Introduction to Machine Learning - 2
-
-
-

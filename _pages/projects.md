@@ -8,7 +8,6 @@ nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
-
 * PI in a Samsung funded project on Palmprint Verification with Prof. Phalguni Gupta as Co-PI. Duration one year.
 * PI in a Indian Space Research Organisation (ISRO) funded project on 3D reconstruction from Satellite Images with Prof. Phalguni Gupta as Co-PI. Duration 3 years.
 * PI in a Samsung funded project on Language and Vision for one year as PI with Prof. Tanaya Guha as co-PI. .
